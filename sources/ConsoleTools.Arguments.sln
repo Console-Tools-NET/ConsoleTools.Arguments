@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTools.Arguments", "ConsoleTools.Arguments\ConsoleTools.Arguments.csproj", "{0E54FC5F-D073-4567-88E8-9299A7FB9FDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTools.Arguments.Tests", "ConsoleTools.Arguments.Tests\ConsoleTools.Arguments.Tests.csproj", "{1C489250-9FF0-4A85-8B10-C0E9DBEED520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2F5608EB-1D55-4081-A8D9-F234B2386C97}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E54FC5F-D073-4567-88E8-9299A7FB9FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E54FC5F-D073-4567-88E8-9299A7FB9FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E54FC5F-D073-4567-88E8-9299A7FB9FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E54FC5F-D073-4567-88E8-9299A7FB9FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C489250-9FF0-4A85-8B10-C0E9DBEED520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C489250-9FF0-4A85-8B10-C0E9DBEED520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C489250-9FF0-4A85-8B10-C0E9DBEED520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C489250-9FF0-4A85-8B10-C0E9DBEED520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

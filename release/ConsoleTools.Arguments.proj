@@ -1,0 +1,39 @@
+<Project
+	xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+	DefaultTargets="Build">
+
+	<PropertyGroup>
+		<OutputPath>output\</OutputPath>
+		<TempPath>temp\</TempPath>
+		<Version>1.0.0</Version>
+		<OutputFileName>ConsoleTools.Arguments-$(Version).zip</OutputFileName>
+		<RepositoryRoot>..\</RepositoryRoot>
+	</PropertyGroup>
+	
+	<Target Name="Build">
+	
+		<!-- Build the solution. -->
+		
+		<MSBuild
+			Projects="..\sources\ConsoleTools.Arguments.sln"
+			Properties="Configuration=Release;Platform=Any CPU;Version=$(Version)"/>
+		
+		<!-- Copy the nuget package files. -->
+		
+        <Copy
+            SourceFiles="$(RepositoryRoot)\sources\ConsoleTools.Arguments\bin\Release\ConsoleTools.Arguments.$(Version).nupkg"
+            DestinationFolder="$(OutputPath)" />
+
+	</Target>
+
+	<Target Name="PrepareForBuild" BeforeTargets="Build">
+		<RemoveDir Directories="$(TempPath)" />
+		<RemoveDir Directories="$(OutputPath)" />
+		<Delete Files="$(OutputFileName)" />
+	</Target>
+
+	<Target Name="FinalCleanup" AfterTargets="Build">
+		<RemoveDir Directories="$(TempPath)" />
+	</Target>
+
+</Project>
