@@ -27,6 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <RootNamespace>DustInTheWind.ConsoleTools.Arguments</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>ConsoleTools.Arguments</PackageId>
+        <PackageTags>console;arguments;command-line</PackageTags>
     </PropertyGroup>
 
 </Project>

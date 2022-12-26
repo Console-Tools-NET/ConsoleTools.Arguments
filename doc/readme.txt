@@ -1,4 +1,4 @@
-ConsoleTools Arguments 1.0.0
+ConsoleTools Arguments 1.1.0
 ====================================================================================================
 
 A library for parsing the command line arguments and consume them as a list of name-value pair items. 
