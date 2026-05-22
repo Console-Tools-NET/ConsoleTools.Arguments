@@ -7,7 +7,7 @@ A library to parse the command line arguments into a name-value pair list.
 The library is published as a nuget package in `nuget.org`.
 
 ```
-Install-Package ConsoleTools.Arguments -Version 1.0.0
+Install-Package ConsoleTools.Arguments
 ```
 
 ## Discussions and Suggestions
@@ -22,10 +22,4 @@ I appreciate any opinion or suggestion:
 - etc...
 
 I'm looking forward to hearing from you.
-
-# Donations
-
-If you like my work and want to support me, you can buy me a coffee:
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y62EZ8H)
 
